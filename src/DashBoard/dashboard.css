@@ -1,0 +1,548 @@
+/* .Dashbody{
+    width: 100%;
+    height: 100vh;
+    background: pink;
+    display: flex;
+}
+.Menubody{
+    width: 15%;
+    height: 100%;
+    background: #001f54;
+}
+.MenuHeader{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MenuLayerHold{
+ width: 100%;
+ height: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.MenuLogoText{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MenuLogoText h4{
+    color: white;
+}
+.Menufirstlayer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00a6fb;
+    position: relative;
+    z-index: 2;
+}
+.Menusecondlayer{
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c0c0c0;
+  z-index: 1;
+  position: absolute;
+  bottom: 90.5%;
+  left: 8%;
+}
+.MenuFeatures{
+    width: 100%;
+    height: 60%;
+    background: purple;
+}
+.UserHeader{
+    width: 100%;
+    height: 15%;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+.UserName{
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserName h3{
+    font-size: 22px;
+    color: white;
+}
+.UserProperties{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+} */
+
+/* General styles */
+
+
+/* Dashboard layout */
+.Dashbody {
+  width: 100%;
+  height: 100vh;
+  /* background: pink; Change to your preferred background color */
+  display: flex;
+}
+
+/* Menu styles */
+
+.Menu{
+  width: 20%;
+}
+.Holder{
+  width: 100%;
+}
+
+.Menubody {
+  width: 100%;
+  height: 100%;
+  background: #001f54;
+}
+
+.MenuHeader {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MenuLayerHold {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MenuLogoText {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MenuLogoText h4 {
+  color: white;
+}
+
+.Menufirstlayer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #00a6fb;
+  position: relative;
+  z-index: 2;
+}
+
+.Menusecondlayer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c0c0c0;
+  z-index: 1;
+  position: absolute;
+  bottom: 90.5%;
+  left: 8%;
+}
+
+.MenuFeatures {
+  width: 100%;
+  height: 60%;
+  background: #001f54;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.MenuFeatures a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.MenuFeatures a:hover {
+  background-color: #4d91ff;
+}
+
+/* UserHeader styles */
+.UserHeader {
+  width: 100%;
+  height: 15%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.UserName {
+  width: 20%;
+  height: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserName h3 {
+  font-size: 22px;
+  color: gray;
+}
+
+.UserProperties {
+  width: 15%;
+  height: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.UserProperties button{
+  width: 90%;
+  height: 40%;
+  background: #0056b3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* DashboardContent styles */
+.DashboardContent {
+  padding: 20px;
+}
+
+/* Placeholder feature styles */
+h2, p {
+  margin-bottom: 10px;
+}
+
+/* Transfer feature styles */
+
+.withdrawWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdrawContent {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.withdrawInput {
+  margin-bottom: 15px;
+}
+
+.withdrawInput label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.withdrawInput input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.withdrawButton {
+  background-color: #4d91ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.withdrawButton:hover {
+  background-color: #3266cc;
+}
+.depositWrapper {
+  width: 100%;
+  height: 90%;
+  padding: 25px;
+}
+
+.depositContent {
+  width: 60%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.depositContent h2 {
+  color: #001f54;
+  margin-bottom: 20px;
+}
+
+.depositInput {
+  margin-bottom: 20px;
+}
+
+.depositInput label {
+  display: block;
+  font-size: 14px;
+  color: #001f54;
+  margin-bottom: 8px;
+}
+
+.depositInput input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.depositButton {
+  background: #4d91ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.depositButton:hover {
+  background: #0056b3;
+}
+/* Transfer.css */
+
+.transferWrapper {
+  width: 100%;
+  height: 90%;
+  padding: 25px;
+}
+
+.transferAndButtonDiv {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.transferAndButtonDiv button {
+  width: 70px;
+  height: 35px;
+  background: #4d91ff;
+  border-radius: 30px;
+  border: none;
+}
+
+.transferAndButtonDiv p {
+  font-size: 14px;
+}
+
+.AccountNumber {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.AccountNumber label {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+.AccountNumber input {
+  width: 40%;
+  height: 30px;
+  padding-left: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+}
+.AccountNumber button{
+  width: 20%;
+  padding: 5px 0px;
+  margin-top: 10px;
+}
+
+.nextButton {
+  width: 70px;
+  height: 35px;
+  background: #4d91ff;
+  border-radius: 30px;
+  border: none;
+  margin-left: 32%;
+}
+.Maincontent {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Mainbalance {
+  width: 30%;
+  height: 100%;
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.Mainbalance h4 {
+  font-size: 18px;
+  color: #001f54;
+}
+
+.Mainbalance h2 {
+  font-size: 30px;
+  color: #001f54;
+  margin: 0;
+}
+
+.Insights {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Settings.css */
+.settings-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #4D91FF;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.setBTn{
+  width: 30%;
+  height: 50%;
+  padding: 10px 30px;
+}
+.setBTn button{
+  padding: 10px 50px;
+  background: #001f54;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.loader{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+/* betting.css */
+/* betting.css */
+.bettingWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.bettingContent {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.bettingInput {
+  margin-bottom: 15px;
+}
+
+.bettingInput label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.bettingInput input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.bettingButton {
+  background-color: #4d91ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.bettingButton:hover {
+  background-color: #3266cc;
+}
+
+

@@ -1,0 +1,575 @@
+.Homebody{
+    width: 100%;
+    height: 100vh;
+    background: #001f54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomeBox{
+    width: 37%;
+    height: 52%;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    animation: backInRight; 
+  animation-duration: 2s;
+}
+.HomeHold h3{
+    font-size: 30px;
+    color: 	#1B1212;
+    animation: backInDown; 
+    animation-duration: 3s;
+}
+.HomeHold p{
+    font-size: 20px;
+    color: #353935;
+    animation: backInDown; 
+    animation-duration: 3s;
+}
+.HomeBtn .Link {
+    width: 50%;
+    height: 80%;
+    border-radius: 7px;
+    border: none;
+    background: #001f54;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 350ms ease-in-out;
+    transform: scale(1);
+    animation: backInUp; 
+    animation-duration: 4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.HomeBtn .Link:hover{
+    transform: scale(1.02);
+    background: #00a6fb;
+}
+.HomeHold{
+    width: 100%;
+    height: 50%;
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.HomeBtn{
+    width: 100%;
+    height: 20%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 20px; */
+}
+.SignBody{
+    width: 100%;
+    height: 100vh;
+   background: #001f54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignContainer{
+    width: 35%;
+    height: 98vh;
+    background: white;
+    border-radius: 3%;
+}
+.SignHeader{
+    width: 100%;
+    height: 13%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 20px;
+    flex-direction: column;
+}
+.SignHeader h3{
+    font-size: 22px;
+}
+.SignContainer form{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SignText{
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-inline: 5%;
+}
+
+.SignText h3{
+  font-size: 17px;
+  color: #00a8e8;
+}
+  .SignFirst{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 30px;
+  }
+  .SignFirst input{
+    width: 93%;
+    height: 60%;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    padding-inline: 10px;
+    color: grey;
+    font-size: 16px;
+  }
+  .SignFirst label{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .SignLast{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+    padding-left:  30px;
+  }
+  .SignLast input{
+    width: 93%;
+    height: 60%;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    padding-inline: 10px;
+    color: gray;
+    font-size: 16px;
+  }
+  .SignLast label{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .SignEmail{
+    width: 100%;
+    height: 13%;
+    /* background: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+    padding-left:30px;
+  }
+  .SignPhone{
+    width: 100%;
+    height: 13%;
+    /* background: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 30px;
+  }
+  .SignEmail input{
+    width: 93%;
+    height: 60%;
+    border-radius: 9px;
+    border: 1px solid gray;
+    outline: none;
+    padding-inline: 10px;
+    color: gray;
+    font-size: 16px;
+  }
+  .SignEmail label{
+    font-size: 16px;
+    font-weight: 600;
+  }
+.SignPhone input{
+    width: 93%;
+    height: 60%;
+    border-radius: 9px;
+    border: 1px solid gray;
+    outline: none;
+    padding-inline: 10px;
+    color: gray;
+    font-size: 16px;
+  }
+  .SignPhone{
+    font-size: 16px;
+    font-weight: 600;
+  }
+.SignPassword{
+    width: 100%;
+    height: 13%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 3px;
+}
+.SignPassword label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.SignPassword input{
+    width: 93%;
+    height: 70%;
+    border-radius: 9px;
+    border: 1px solid gray;
+    outline: none;
+    padding-inline: 10px;
+    color: gray;
+    font-size: 16px;
+}
+
+.SignConfirm{
+    width: 100%;
+    height: 13%;
+    /* background: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 30px;
+}
+.SignConfirm label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.SignConfirm input{
+    width: 93%;
+    height: 60%;
+    border-radius: 9px;
+    border: 1px solid gray;
+    outline: none;
+    padding-inline: 10px;
+    color: gray;
+    font-size: 16px;
+}
+.SignBtn{
+    width: 96%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.SignBtn button{
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+    border: none;
+    background: #00a6fb;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 350ms ease-in-out;
+}
+.SignBtn button:hover{
+    transform: scale(1.02);
+    background: #001f54;
+}
+.SignAlready{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignAlready p {
+    font-size: 19px;
+}
+.error-message{
+  color: red;
+}
+.loader{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+.LoginBody{
+  width: 100%;
+  height: 100vh;
+  background: #001f54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginHold{
+  width: 34%;
+  height: 95vh;
+  background: white;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.loginHeader{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-inline: 3%;
+}
+.LayerHold{
+  width: 35%;
+  height: 70%;
+  /* background: #000; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.firstlayer{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #00a6fb;
+  position: relative;
+  z-index: 2;
+}
+.secondlayer{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c0c0c0;
+  z-index: 1;
+  position: absolute;
+  bottom: 89.3%;
+  left: 36%;
+}
+.LogoText{
+  width: 35%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: purple; */
+}
+.LogoText h4{
+  color: #1B1212;
+}
+.LoginWelcome{
+  width: 100%;
+  height: 15%;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 7%;
+  padding-inline: 3%;
+}
+.LoginWelcome h3{
+  font-size: 23px;
+  color: #1B1212;
+}
+.LoginWelcome span{
+  font-size: 18px;
+  color: #00a8e8;
+}
+.LoginBody form{
+  width: 100%;
+  height: 70%;
+}
+.loginEmail{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-inline: 3%;
+  gap: 8%;
+}
+.loginEmail input{
+  width: 95%;
+  height: 50%;
+  padding-inline: 3%;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: white;
+  color: #1B1212;
+  border: 1px solid gray;
+}
+.loginEmail label{
+  font-size: 18px;
+  font-weight: 600;
+  color: #1B1212;
+}
+.LoginPassword{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-inline: 3%;
+  gap: 8%;
+}
+.LoginPassword input{
+  width: 95%;
+  height: 50%;
+  padding-inline: 3%;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: white;
+  color: #1B1212;
+  border: 1px solid gray;
+}
+.LoginPassword label{
+  font-size: 18px;
+  font-weight: 600;
+  color: #1B1212;
+}
+#password{
+  position: relative;
+  /* background: #000; */
+}
+.SignUpContentDownFormPwdEyes {
+  position: absolute;
+  left: 60%;
+  bottom: 44.5%;
+  cursor: pointer;
+}
+
+.AiOutlineEye,
+.AiOutlineEyeInvisible {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.AiOutlineEye:hover,
+.AiOutlineEyeInvisible:hover {
+  color: grey;
+}
+.loginBtn{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginBtn button{
+  width: 92%;
+  height: 50%;
+  border-radius: 9px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  color: #fff;
+  background: #00a6fb;
+  transform: scale(1);
+  transition: all 350ms ease-in-out;
+  font-weight: 600;
+}
+.loginBtn button:hover{
+  transform: scale(1.02);
+  background: #0a1128;
+}
+.loginRemeber{
+  width: 50%;
+  height: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+  padding-inline: 4%;
+}
+.loginRemeber input {
+  width: 20%;
+  height: 30%;
+
+}
+.loginRemeber span{
+  font-size: 17px;
+  font-weight: 600;
+  color: #1B1212;
+}
+.LoginDontHave{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginDontHave p{
+  font-size: 18px;
+  color: #1B1212;
+}
+.SignLayerHold{
+  width: 35%;
+  height: 70%;
+  /* background: #000; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Signfirstlayer{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #00a6fb;
+  position: relative;
+  z-index: 2;
+}
+.Signsecondlayer{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c0c0c0;
+  z-index: 1;
+  position: absolute;
+  bottom: 91.2%;
+  left: 36%;
+}
+.SignLogoText{
+  width: 35%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: purple; */
+}
+.SignLogoText h4{
+  color: #1B1212;
+}
+#pass{
+  position: relative;
+}
+.SignUpFormPwdEyes{
+  position: absolute;
+  left: 61%;
+  bottom: 27.6%;
+  cursor: pointer;
+}
